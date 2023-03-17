@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 1rem;
+	background: #878C8F;
+	color: #FCF7FF;
+	font-family: "Gill sans";
+	font-size: 1.1rem;
+}
+
+.container {
+	margin: 2em;
+}
+
+h1 {
+	background: #52454e;
+	text-align: center;
+	padding: .5em;
+	border: 2px solid #A4969B;
+	font-size: 2rem;
+	border-radius: 30px;
+	font-family: "Calibri";
+}
+
+h5 {
+	font-size: 1.2rem;
+	margin: 1em;
+	margin-bottom: 0;
+}
+
+table {
+	min-height: 85%;
+	width: 90%;
+	margin: .5em 0 1em 2em;
+	font-family: "Gill sans";
+}
+
+tr {
+	display: flex;
+	flex-direction: column;
+}
+
+td {
+	word-break: break-all;
+	font-size: 1.05rem;
+}
+
+.box-type-1 td {
+	padding: 1.1%;
+}
+
+.box-type-2 td {
+	padding: 1.3%;
+}
+
+.input {
+	background: #FAFFF7;
+	color: #655560;
+	font-size: 1rem;
+	border: 2px solid #655560;
+	border-radius: .5em;
+	padding: .2em;
+	max-width: 80%;
+	display: none;
+	font-family: "Gill sans";
+}
+
+.add-button, .confirm-btn {
+	width: 2.5em;
+	height: 2.5em;
+	border-radius: 1.5em;
+	margin: 1em 1em .5em .5em;
+	color: #655560;
+	border: 3px solid #655560;
+}
+
+.add-button {
+	background: #FCF7FF;
+	display: inline;
+}
+
+.add-button:hover {
+	background: #FAFFF7;
+}
+
+.confirm-btn {
+	background: #FAFFF7;
+	display: none;
+}
+
+.confirm-btn:hover {
+	background: #FCF7FF;
+}
+
+.cols {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5em;
+}
+
+.col1 {
+	width: 45.50%;
+}
+
+.col2 {
+	width: 53%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.box-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-type-1, .box-type-2 {
+	border: 3px solid #655560;
+	border-radius: 30px;
+}
+
+.box-type-1 {
+	min-height: 42.5em;
+}
+
+.box-type-2 {
+	min-height: 20.5em;
+}
+
+#box2 {
+	margin-bottom: 1.5em;
+}
